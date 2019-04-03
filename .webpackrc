@@ -1,0 +1,18 @@
+{
+    "extraBabelPlugins": [
+        ["import", 
+            {
+                "libraryName": "antd-mobile",
+                "libraryDirectory": "es",
+                "style": true
+            }
+        ]
+    ],
+    "env": {
+        "development": {
+            "extraBabelPlugins": [
+                "dva-hmr"
+            ]
+        }
+    }
+}
